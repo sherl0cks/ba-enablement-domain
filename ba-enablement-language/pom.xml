@@ -10,6 +10,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<bxms.version>6.2.0.Final-redhat-9</bxms.version>
 	</properties>
 
 	<distributionManagement>
@@ -29,5 +30,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.kie</groupId>
+			<artifactId>kie-api</artifactId>
+			<version>${bxms.version}</version>
+		</dependency>
+	</dependencies>
 
 </project>

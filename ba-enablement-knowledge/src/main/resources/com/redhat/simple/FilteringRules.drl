@@ -12,3 +12,18 @@ dialect "mvel"
 		reason.setReasonMessage( "business filtered from Kansas not found" );
 		insert ( reason );
 end
+
+
+rule "Enrich Tax ID"
+ruleflow-group "Filtering"
+dialect "mvel"
+
+	when
+		$business : Business()
+	then
+		modify ($business){
+			federalTaxId = $business.federalTaxId + "-" + $business.zipCode;
+		}
+		System.out.println( "hello" );
+		
+end

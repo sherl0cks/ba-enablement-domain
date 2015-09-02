@@ -1,5 +1,8 @@
 package com.redhat;
 
+import org.kie.api.definition.type.PropertyReactive;
+
+@PropertyReactive
 public class Business {
 
 	private String name;
