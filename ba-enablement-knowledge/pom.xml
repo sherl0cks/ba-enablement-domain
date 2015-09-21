@@ -34,13 +34,13 @@
 			<plugin>
 				<groupId>org.kie</groupId>
 				<artifactId>kie-maven-plugin</artifactId>
-				<version>6.2.0.Final-redhat-9</version>
+				<version>6.3.0.CR1-redhat-1</version>
 				<extensions>true</extensions>
 				<dependencies>
 					<dependency>
 						<groupId>org.jbpm</groupId>
 						<artifactId>jbpm-bpmn2</artifactId>
-						<version>6.2.0.Final-redhat-9</version>
+						<version>6.3.0.CR1-redhat-1</version>
 					</dependency>
 				</dependencies>
 			</plugin>
