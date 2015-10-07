@@ -10,6 +10,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<bpms.version>6.2.0.Final-redhat-11</bpms.version>
 	</properties>
 
 	<distributionManagement>
@@ -24,7 +25,7 @@
 			<plugin>
 				<groupId>org.kie</groupId>
 				<artifactId>kie-maven-plugin</artifactId>
-				<version>6.2.0.Final-redhat-9</version>
+				<version>${bpms.version}</version>
 				<extensions>true</extensions>
 			</plugin>
 		</plugins>
